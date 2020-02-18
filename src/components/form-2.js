@@ -17,7 +17,7 @@ class Form extends React.Component {
     e.preventDefault();
     axios({
       method: "post",
-      url: 'http://localhost:8000/api/contact/index.php',
+      url: 'https://objective-morse-c4c69b.netlify.com/api/contact/index.php',
       headers: { "content-type": "application/json" },
       data: this.state
     })
